@@ -1,0 +1,1128 @@
+{
+    "stations": [
+        {
+            "name": "Alekšince",
+            "id": "159467"
+        },
+        {
+            "name": "Bajč",
+            "id": "158162"
+        },
+        {
+            "name": "Bánov",
+            "id": "152165"
+        },
+        {
+            "name": "Bánovce nad Bebravou",
+            "id": "151464"
+        },
+        {
+            "name": "Bánovce nad Ondavou",
+            "id": "166900"
+        },
+        {
+            "name": "Banská Bystrica",
+            "id": "133637"
+        },
+        {
+            "name": "Banská Štiavnica",
+            "id": "146233"
+        },
+        {
+            "name": "Barca",
+            "id": "152900"
+        },
+        {
+            "name": "Bardejov",
+            "id": "165902"
+        },
+        {
+            "name": "Bartošova Lehôtka",
+            "id": "131532"
+        },
+        {
+            "name": "Bernolákovo",
+            "id": "132464"
+        },
+        {
+            "name": "Beša",
+            "id": "156463"
+        },
+        {
+            "name": "Blhovce",
+            "id": "137836"
+        },
+        {
+            "name": "Boleráz",
+            "id": "142463"
+        },
+        {
+            "name": "Bošany",
+            "id": "155267"
+        },
+        {
+            "name": "Bratislava hlavná stanica",
+            "id": "132068"
+        },
+        {
+            "name": "Bratislava predmestie",
+            "id": "145169"
+        },
+        {
+            "name": "Bratislava-Lamač",
+            "id": "131664"
+        },
+        {
+            "name": "Bratislava-Nové Mesto",
+            "id": "146167"
+        },
+        {
+            "name": "Bratislava-Petržalka",
+            "id": "145763"
+        },
+        {
+            "name": "Bratislava-Rača",
+            "id": "136069"
+        },
+        {
+            "name": "Bratislava-Vajnory",
+            "id": "132167"
+        },
+        {
+            "name": "Breznička",
+            "id": "148338"
+        },
+        {
+            "name": "Brezno",
+            "id": "143537"
+        },
+        {
+            "name": "Brezno mesto",
+            "id": "143636"
+        },
+        {
+            "name": "Bystričany",
+            "id": "172056"
+        },
+        {
+            "name": "Bytča",
+            "id": "173658"
+        },
+        {
+            "name": "Bytčica",
+            "id": "175356"
+        },
+        {
+            "name": "Cífer",
+            "id": "136663"
+        },
+        {
+            "name": "Chotín",
+            "id": "158360"
+        },
+        {
+            "name": "Chrenovec",
+            "id": "172957"
+        },
+        {
+            "name": "Chynorany",
+            "id": "151969"
+        },
+        {
+            "name": "Čadca",
+            "id": "181156"
+        },
+        {
+            "name": "Čata",
+            "id": "163261"
+        },
+        {
+            "name": "Čečejovce",
+            "id": "152009"
+        },
+        {
+            "name": "Čeľovce",
+            "id": "186403"
+        },
+        {
+            "name": "Červená Skala",
+            "id": "145433"
+        },
+        {
+            "name": "Čierna nad Tisou",
+            "id": "138602"
+        },
+        {
+            "name": "Čierne pri Čadci",
+            "id": "181453"
+        },
+        {
+            "name": "Devínska Nová Ves",
+            "id": "131367"
+        },
+        {
+            "name": "Diviaky",
+            "id": "130534"
+        },
+        {
+            "name": "Dlhá nad Oravou",
+            "id": "175950"
+        },
+        {
+            "name": "Dlhé nad Cirochou",
+            "id": "161109"
+        },
+        {
+            "name": "Dobrá",
+            "id": "138701"
+        },
+        {
+            "name": "Dobrá Niva",
+            "id": "147736"
+        },
+        {
+            "name": "Dolný Hričov",
+            "id": "174052"
+        },
+        {
+            "name": "Dolný Kubín",
+            "id": "174250"
+        },
+        {
+            "name": "Drienovská Nová Ves",
+            "id": "157107"
+        },
+        {
+            "name": "Dubnica nad Váhom",
+            "id": "170159"
+        },
+        {
+            "name": "Dubová",
+            "id": "142539"
+        },
+        {
+            "name": "Dunajská Streda",
+            "id": "147363"
+        },
+        {
+            "name": "Dvory nad Žitavou",
+            "id": "134460"
+        },
+        {
+            "name": "Fiľakovo",
+            "id": "136937"
+        },
+        {
+            "name": "Galanta",
+            "id": "133264"
+        },
+        {
+            "name": "Gáň",
+            "id": "150169"
+        },
+        {
+            "name": "Gašparovo",
+            "id": "143834"
+        },
+        {
+            "name": "Gbelce",
+            "id": "134866"
+        },
+        {
+            "name": "Gbely",
+            "id": "143065"
+        },
+        {
+            "name": "Gelnica",
+            "id": "149500"
+        },
+        {
+            "id": 137539,
+            "name": "Hajnáčka"
+        },
+        {
+            "id": 173153,
+            "name": "Handlová"
+        },
+        {
+            "id": 152801,
+            "name": "Haniska pri Košiciach"
+        },
+        {
+            "id": 158709,
+            "name": "Hanušovce nad Topľou"
+        },
+        {
+            "id": 144832,
+            "name": "Heľpa"
+        },
+        {
+            "id": 140939,
+            "name": "Hliník nad Hronom"
+        },
+        {
+            "id": 159061,
+            "name": "Hlohovec"
+        },
+        {
+            "id": 152231,
+            "name": "Hnúšťa"
+        },
+        {
+            "id": 143263,
+            "name": "Holíč nad Moravou"
+        },
+        {
+            "id": 146837,
+            "name": "Hontianske Nemce"
+        },
+        {
+            "id": 130930,
+            "name": "Horná Štubňa"
+        },
+        {
+            "id": 144667,
+            "name": "Horné Srnie"
+        },
+        {
+            "id": 131839,
+            "name": "Hronská Dúbrava"
+        },
+        {
+            "id": 140137,
+            "name": "Hronský Beňadik"
+        },
+        {
+            "id": 156166,
+            "name": "Hul"
+        },
+        {
+            "id": 160408,
+            "name": "Humenné"
+        },
+        {
+            "id": 158261,
+            "name": "Hurbanovo"
+        },
+        {
+            "id": 158360,
+            "name": "Chotín"
+        },
+        {
+            "id": 172957,
+            "name": "Chrenovec"
+        },
+        {
+            "id": 151969,
+            "name": "Chynorany"
+        },
+        {
+            "id": 170258,
+            "name": "Ilava"
+        },
+        {
+            "id": 152769,
+            "name": "Ivanka pri Nitre"
+        },
+        {
+            "id": 141663,
+            "name": "Jablonica"
+        },
+        {
+            "id": 154062,
+            "name": "Jelšovce"
+        },
+        {
+            "id": 138032,
+            "name": "Jesenské"
+        },
+        {
+            "id": 156968,
+            "name": "Kalná nad Hronom"
+        },
+        {
+            "id": 160804,
+            "name": "Kamenica nad Cirochou"
+        },
+        {
+            "id": 158006,
+            "name": "Kapušany pri Prešove"
+        },
+        {
+            "id": 142307,
+            "name": "Kežmarok"
+        },
+        {
+            "id": 149435,
+            "name": "Kokava nad Rimavicou"
+        },
+        {
+            "id": 149062,
+            "name": "Komárno"
+        },
+        {
+            "id": 152462,
+            "name": "Komjatice"
+        },
+        {
+            "id": 154161,
+            "name": "Koniarovce"
+        },
+        {
+            "id": 135806,
+            "name": "Kostoľany nad Hornádom"
+        },
+        {
+            "id": 136002,
+            "name": "Košice"
+        },
+        {
+            "id": 161505,
+            "name": "Koškovce"
+        },
+        {
+            "id": 157560,
+            "name": "Kozárovce"
+        },
+        {
+            "id": 131615,
+            "name": "Kráľova Lehota"
+        },
+        {
+            "id": 174755,
+            "name": "Kraľovany"
+        },
+        {
+            "id": 136606,
+            "name": "Krásna nad Hornádom"
+        },
+        {
+            "id": 182154,
+            "name": "Krásno nad Kysucou"
+        },
+        {
+            "id": 131235,
+            "name": "Kremnica"
+        },
+        {
+            "id": 131334,
+            "name": "Kremnické Bane"
+        },
+        {
+            "id": 135236,
+            "name": "Kriváň"
+        },
+        {
+            "id": 134601,
+            "name": "Krompachy"
+        },
+        {
+            "id": 147132,
+            "name": "Krupina"
+        },
+        {
+            "id": 130161,
+            "name": "Kúty"
+        },
+        {
+            "id": 137406,
+            "name": "Kuzmice"
+        },
+        {
+            "id": 146662,
+            "name": "Kvetoslavov"
+        },
+        {
+            "id": 135608,
+            "name": "Kysak"
+        },
+        {
+            "id": 182451,
+            "name": "Kysucké Nové Mesto"
+        },
+        {
+            "id": "170456",
+            "name": "Ladce"
+        },
+        {
+            "id": "147066",
+            "name": "Lehnice"
+        },
+        {
+            "id": "138735",
+            "name": "Lenartovce"
+        },
+        {
+            "id": "137166",
+            "name": "Leopoldov"
+        },
+        {
+            "id": "157164",
+            "name": "Levice"
+        },
+        {
+            "id": "157206",
+            "name": "Ličartovce"
+        },
+        {
+            "id": "175059",
+            "name": "Lietavská Lúčka"
+        },
+        {
+            "id": "164103",
+            "name": "Lipany"
+        },
+        {
+            "id": "158600",
+            "name": "Lipníky"
+        },
+        {
+            "id": "130815",
+            "name": "Liptovská Teplá"
+        },
+        {
+            "id": "131417",
+            "name": "Liptovský Hrádok"
+        },
+        {
+            "id": "131011",
+            "name": "Liptovský Mikuláš"
+        },
+        {
+            "id": "156760",
+            "name": "Lok"
+        },
+        {
+            "id": "135533",
+            "name": "Lovinobaňa"
+        },
+        {
+            "id": "136135",
+            "name": "Lučenec"
+        },
+        {
+            "id": "154567",
+            "name": "Ludanice"
+        },
+        {
+            "id": "175455",
+            "name": "Lúky pod Makytou"
+        },
+        {
+            "id": "153361",
+            "name": "Lužianky"
+        },
+        {
+            "id": "182758",
+            "name": "Makov"
+        },
+        {
+            "id": "135301",
+            "name": "Malá Lodina"
+        },
+        {
+            "id": "130864",
+            "name": "Malacky"
+        },
+        {
+            "id": "161463",
+            "name": "Maňa"
+        },
+        {
+            "id": "134908",
+            "name": "Margecany"
+        },
+        {
+            "id": "133900",
+            "name": "Markušovce"
+        },
+        {
+            "id": "130138",
+            "name": "Martin"
+        },
+        {
+            "id": "142000",
+            "name": "Matejovce pri Poprade"
+        },
+        {
+            "id": "142232",
+            "name": "Medzibrod"
+        },
+        {
+            "id": "176255",
+            "name": "Medzibrodie nad Oravou"
+        },
+        {
+            "id": "162206",
+            "name": "Medzilaborce"
+        },
+        {
+            "id": "137505",
+            "name": "Michaľany"
+        },
+        {
+            "id": "167304",
+            "name": "Michalovce"
+        },
+        {
+            "id": "148809",
+            "name": "Mníšek nad Hnilcom"
+        },
+        {
+            "id": "151704",
+            "name": "Moldava nad Bodvou"
+        },
+        {
+            "id": "135160",
+            "name": "Mužla"
+        },
+        {
+            "id": "143768",
+            "name": "Myjava"
+        },
+        {
+            "id": "148304",
+            "name": "Nálepkovo"
+        },
+        {
+            "id": "144766",
+            "name": "Nemšová"
+        },
+        {
+            "id": "153064",
+            "name": "Nitra"
+        },
+        {
+            "id": "136804",
+            "name": "Nižná Myšľa"
+        },
+        {
+            "id": "159905",
+            "name": "Nižný Hrabovec"
+        },
+        {
+            "id": "140335",
+            "name": "Nová Baňa"
+        },
+        {
+            "id": "172353",
+            "name": "Nováky"
+        },
+        {
+            "id": "146563",
+            "name": "Nové Košariská"
+        },
+        {
+            "id": "138164",
+            "name": "Nové Mesto nad Váhom"
+        },
+        {
+            "id": "134361",
+            "name": "Nové Zámky"
+        },
+        {
+            "id": "175851",
+            "name": "Oravský Podzámok"
+        },
+        {
+            "id": "147264",
+            "name": "Orechová Potôň"
+        },
+        {
+            "id": "155861",
+            "name": "Oslany"
+        },
+        {
+            "id": "134163",
+            "name": "Palárikovo"
+        },
+        {
+            "id": "176354",
+            "name": "Párnica"
+        },
+        {
+            "id": "167502",
+            "name": "Petrovce nad Laborcom"
+        },
+        {
+            "id": "136267",
+            "name": "Pezinok"
+        },
+        {
+            "id": "137463",
+            "name": "Piešťany"
+        },
+        {
+            "id": "143909",
+            "name": "Plaveč"
+        },
+        {
+            "id": "150102",
+            "name": "Plešivec"
+        },
+        {
+            "id": "176651",
+            "name": "Podbiel"
+        },
+        {
+            "id": "142935",
+            "name": "Podbrezová"
+        },
+        {
+            "id": "156265",
+            "name": "Podhájska"
+        },
+        {
+            "id": "143206",
+            "name": "Podolínec"
+        },
+        {
+            "id": "146266",
+            "name": "Podunajské Biskupice"
+        },
+        {
+            "id": "163162",
+            "name": "Pohronský Ruskov"
+        },
+        {
+            "id": "144337",
+            "name": "Polomka"
+        },
+        {
+            "id": "148932",
+            "name": "Poltár"
+        },
+        {
+            "id": "132506",
+            "name": "Poprad-Tatry"
+        },
+        {
+            "id": "176958",
+            "name": "Považská Bystrica"
+        },
+        {
+            "id": "177154",
+            "name": "Považská Teplá"
+        },
+        {
+            "id": "149302",
+            "name": "Prakovce"
+        },
+        {
+            "id": "157503",
+            "name": "Prešov"
+        },
+        {
+            "id": "138503",
+            "name": "Pribeník"
+        },
+        {
+            "id": "134569",
+            "name": "Pribeta"
+        },
+        {
+            "id": "172551",
+            "name": "Prievidza"
+        },
+        {
+            "id": "177253",
+            "name": "Púchov"
+        },
+        {
+            "id": "134031",
+            "name": "Radvaň"
+        },
+        {
+            "id": "161901",
+            "name": "Radvaň nad Laborcom"
+        },
+        {
+            "id": "177451",
+            "name": "Rajec"
+        },
+        {
+            "id": "165506",
+            "name": "Raslavice"
+        },
+        {
+            "id": "152934",
+            "name": "Rimavská Baňa"
+        },
+        {
+            "id": "150334",
+            "name": "Rimavská Sobota"
+        },
+        {
+            "id": "159269",
+            "name": "Rišňovce"
+        },
+        {
+            "id": "150607",
+            "name": "Rožňava"
+        },
+        {
+            "id": "137109",
+            "name": "Ruskov"
+        },
+        {
+            "id": "130419",
+            "name": "Ružomberok"
+        },
+        {
+            "id": "151662",
+            "name": "Rybany"
+        },
+        {
+            "id": "147538",
+            "name": "Sása-Pliešovce"
+        },
+        {
+            "id": "130468",
+            "name": "Sekule"
+        },
+        {
+            "id": "132761",
+            "name": "Senec"
+        },
+        {
+            "id": "141366",
+            "name": "Senica"
+        },
+        {
+            "id": "149864",
+            "name": "Sereď"
+        },
+        {
+            "id": "143669",
+            "name": "Skalica na Slovensku"
+        },
+        {
+            "id": "183053",
+            "name": "Skalité"
+        },
+        {
+            "id": "173559",
+            "name": "Sklené pri Handlovej"
+        },
+        {
+            "id": "132969",
+            "name": "Sládkovičovo"
+        },
+        {
+            "id": "137208",
+            "name": "Slanec"
+        },
+        {
+            "id": "134437",
+            "name": "Sliač kúpele"
+        },
+        {
+            "id": "142034",
+            "name": "Slovenská Ľupča"
+        },
+        {
+            "id": "137901",
+            "name": "Slovenské Nové Mesto"
+        },
+        {
+            "id": "142166",
+            "name": "Smolenice"
+        },
+        {
+            "id": "163006",
+            "name": "Snina"
+        },
+        {
+            "id": "133603",
+            "name": "Spišská Nová Ves"
+        },
+        {
+            "id": "134205",
+            "name": "Spišské Vlachy"
+        },
+        {
+            "id": "163402",
+            "name": "Stakčín"
+        },
+        {
+            "id": "143503",
+            "name": "Stará Ľubovňa"
+        },
+        {
+            "id": "144063",
+            "name": "Stará Turá"
+        },
+        {
+            "id": "140509",
+            "name": "Starý Smokovec"
+        },
+        {
+            "id": "135137",
+            "name": "Stožok"
+        },
+        {
+            "id": "160101",
+            "name": "Strážske"
+        },
+        {
+            "id": "138107",
+            "name": "Streda nad Bodrogom"
+        },
+        {
+            "id": "134668",
+            "name": "Strekov"
+        },
+        {
+            "id": "132308",
+            "name": "Svit"
+        },
+        {
+            "id": "154047",
+            "name": "Šahy"
+        },
+        {
+            "id": "133363",
+            "name": "Šaľa"
+        },
+        {
+            "id": "157800",
+            "name": "Šarišské Lúky"
+        },
+        {
+            "id": "141168",
+            "name": "Šaštín-Stráže"
+        },
+        {
+            "id": "142760",
+            "name": "Šelpice"
+        },
+        {
+            "id": "136465",
+            "name": "Šenkvice"
+        },
+        {
+            "id": "132001",
+            "name": "Štrba"
+        },
+        {
+            "id": "140319",
+            "name": "Štrbské Pleso"
+        },
+        {
+            "id": "135269",
+            "name": "Štúrovo"
+        },
+        {
+            "id": "152066",
+            "name": "Šurany"
+        },
+        {
+            "id": "141705",
+            "name": "Tatranská Lomnica"
+        },
+        {
+            "id": "151837",
+            "name": "Tisovec"
+        },
+        {
+            "id": "136036",
+            "name": "Tomášovce"
+        },
+        {
+            "id": "155069",
+            "name": "Topoľčany"
+        },
+        {
+            "id": "139030",
+            "name": "Tornaľa"
+        },
+        {
+            "id": "166405",
+            "name": "Trebišov"
+        },
+        {
+            "id": "138867",
+            "name": "Trenčianska Teplá"
+        },
+        {
+            "id": "150862",
+            "name": "Trenčianska Turná"
+        },
+        {
+            "id": "138263",
+            "name": "Trenčianske Bohuslavice"
+        },
+        {
+            "id": "139261",
+            "name": "Trenčianske Teplice"
+        },
+        {
+            "id": "138669",
+            "name": "Trenčín"
+        },
+        {
+            "id": "138461",
+            "name": "Trenčín-Zlatovce"
+        },
+        {
+            "id": "136762",
+            "name": "Trnava"
+        },
+        {
+            "id": "133868",
+            "name": "Trnovec nad Váhom"
+        },
+        {
+            "id": "177956",
+            "name": "Trstená"
+        },
+        {
+            "id": "178251",
+            "name": "Turany"
+        },
+        {
+            "id": "151407",
+            "name": "Turňa nad Bodvou"
+        },
+        {
+            "id": "183459",
+            "name": "Turzovka"
+        },
+        {
+            "id": "178459",
+            "name": "Tvrdošín"
+        },
+        {
+            "id": "134064",
+            "name": "Tvrdošovce"
+        },
+        {
+            "id": "161307",
+            "name": "Udavské"
+        },
+        {
+            "id": "149732",
+            "name": "Utekáč"
+        },
+        {
+            "id": "156067",
+            "name": "Úľany nad Žitavou"
+        },
+        {
+            "id": "166207",
+            "name": "Úpor"
+        },
+        {
+            "id": "178657",
+            "name": "Varín"
+        },
+        {
+            "id": "152504",
+            "name": "Veľká Ida"
+        },
+        {
+            "id": "155465",
+            "name": "Veľké Bielice"
+        },
+        {
+            "id": "157263",
+            "name": "Veľké Kozmálovce"
+        },
+        {
+            "id": "130666",
+            "name": "Veľké Leváre"
+        },
+        {
+            "id": "155762",
+            "name": "Veľké Uherce"
+        },
+        {
+            "id": "138404",
+            "name": "Veľký Horeš"
+        },
+        {
+            "id": "134734",
+            "name": "Vígľaš"
+        },
+        {
+            "id": "134239",
+            "name": "Vlkanová"
+        },
+        {
+            "id": "161869",
+            "name": "Vráble"
+        },
+        {
+            "id": "159400",
+            "name": "Vranov nad Topľou"
+        },
+        {
+            "id": "164863",
+            "name": "Vrbovce"
+        },
+        {
+            "id": "178954",
+            "name": "Vrútky"
+        },
+        {
+            "id": "188953",
+            "name": "Vrútky nákladná stanica"
+        },
+        {
+            "id": "133108",
+            "name": "Vydrník"
+        },
+        {
+            "id": "131714",
+            "name": "Východná"
+        },
+        {
+            "id": "153569",
+            "name": "Zbehy"
+        },
+        {
+            "id": "172155",
+            "name": "Zemianske Kostoľany"
+        },
+        {
+            "id": "161166",
+            "name": "Zlaté Moravce"
+        },
+        {
+            "id": "149534",
+            "name": "Zlatno"
+        },
+        {
+            "id": "130963",
+            "name": "Zohor"
+        },
+        {
+            "id": "132332",
+            "name": "Zvolen nákladná stanica"
+        },
+        {
+            "id": "132233",
+            "name": "Zvolen osobná stanica"
+        },
+        {
+            "id": "155366",
+            "name": "Žabokreky nad Nitrou"
+        },
+        {
+            "id": "140632",
+            "name": "Žarnovica"
+        },
+        {
+            "id": "162966",
+            "name": "Želiezovce"
+        },
+        {
+            "id": "141234",
+            "name": "Žiar nad Hronom"
+        },
+        {
+            "id": "179150",
+            "name": "Žilina"
+        }
+    ]
+}
