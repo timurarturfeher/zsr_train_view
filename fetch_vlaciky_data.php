@@ -1,4 +1,5 @@
 <?php
+require_once 'db.php';
 function getInitialCookie() {
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, "https://mapa.zsr.sk/index.aspx");
@@ -41,16 +42,7 @@ function fetchData($cookie) {
     return json_decode($response, true);
 }
 function saveToDatabase($data) {
-    $host = 'localhost';
-    $dbname = '';
-    $username = '';
-    $password = '';
-    try {
-        $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
-        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    } catch (PDOException $e) {
-        die("Error: Unable to connect to database. " . $e->getMessage());
-    }
+    global $pdo;
     $truncateSql = "TRUNCATE TABLE train_data";
     $pdo->exec($truncateSql);
     $sql = "INSERT INTO train_data (

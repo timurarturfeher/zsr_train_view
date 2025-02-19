@@ -1,12 +1,5 @@
 <?php
-$servername = "localhost";
-$username = "user";
-$password = "pass";
-$dbname = "db";
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+require_once 'db.php';
 $jsonFilePath = 'stations.json';
 if (file_exists($jsonFilePath)) {
     $jsonData = file_get_contents($jsonFilePath);

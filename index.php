@@ -1,15 +1,7 @@
 <?php
+require_once 'db.php';
 function fetchData() {
-    $host = 'localhost'; 
-    $dbname = 'db'; 
-    $username = 'user'; 
-    $password = 'pass'; 
-    try {
-        $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
-        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    } catch (PDOException $e) {
-        die("Error: Unable to connect to database. " . $e->getMessage());
-    }
+    global $pdo;
     $query = "SELECT * FROM train_data";
     try {
         $stmt = $pdo->prepare($query);
