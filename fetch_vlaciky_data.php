@@ -42,34 +42,58 @@ function fetchData($cookie) {
     return json_decode($response, true);
 }
 function saveToDatabase($data) {
-    global $pdo;
-    $truncateSql = "TRUNCATE TABLE train_data";
-    $pdo->exec($truncateSql);
+    global $conn;
+    $mysqli = $conn;
+    $mysqli->set_charset("utf8");
+
+    // Truncate the table
+    if (!$mysqli->query("TRUNCATE TABLE train_data")) {
+        logMessage("Truncate Error: " . $mysqli->error);
+        die("Truncate Error: " . $mysqli->error);
+    }
+
+    // Prepare the insert statement
     $sql = "INSERT INTO train_data (
                 StanicaZCislo, StanicaDoCislo, Nazov, TypVlaku, CisloVlaku, NazovVlaku, 
                 Popis, Meska, Dopravca, InfoZoStanice, MeskaText
-            ) VALUES (
-                :StanicaZCislo, :StanicaDoCislo, :Nazov, :TypVlaku, :CisloVlaku, :NazovVlaku, 
-                :Popis, :Meska, :Dopravca, :InfoZoStanice, :MeskaText
-            )";
-    $stmt = $pdo->prepare($sql);
-    foreach ($data as $train) {
-        $stmt->execute([
-            ':StanicaZCislo' => $train['StanicaZCislo'] ?? null,
-            ':StanicaDoCislo' => $train['StanicaDoCislo'] ?? null,
-            ':Nazov' => $train['Nazov'] ?? null,
-            ':TypVlaku' => $train['TypVlaku'] ?? null,
-            ':CisloVlaku' => $train['CisloVlaku'] ?? null,
-            ':NazovVlaku' => $train['NazovVlaku'] ?? null,
-            ':Popis' => $train['Popis'] ?? null,
-            ':Meska' => $train['Meska'] ?? null,
-            ':Dopravca' => $train['Dopravca'] ?? null,
-            ':InfoZoStanice' => $train['InfoZoStanice'] ?? null,
-            ':MeskaText' => $train['MeskaText'] ?? null
-        ]);
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    $stmt = $mysqli->prepare($sql);
+
+    if (!$stmt) {
+        logMessage("Prepare Error: " . $mysqli->error);
+        die("Prepare Error: " . $mysqli->error);
     }
+
+    foreach ($data as $train) {
+        // Bind parameters (all as strings, adjust types if needed)
+        $stmt->bind_param(
+            "iisssssssss",
+            $train['StanicaZCislo'] ?? null,
+            $train['StanicaDoCislo'] ?? null,
+            $train['Nazov'] ?? null,
+            $train['TypVlaku'] ?? null,
+            $train['CisloVlaku'] ?? null,
+            $train['NazovVlaku'] ?? null,
+            $train['Popis'] ?? null,
+            $train['Meska'] ?? null,
+            $train['Dopravca'] ?? null,
+            $train['InfoZoStanice'] ?? null,
+            $train['MeskaText'] ?? null
+        );
+
+        if ($stmt->execute()) {
+            logMessage("Insert OK for train: " . json_encode($train));
+        } else {
+            logMessage("Insert Error for train: " . json_encode($train) . " - Error: " . $stmt->error);
+        }
+    }
+
+    $stmt->close();
+    $mysqli->close();
+
     echo "Data saved to the database successfully.\n";
 }
+
 function removeTrasaData(&$data) {
     foreach ($data as &$train) {
         if (isset($train['Trasa'])) {

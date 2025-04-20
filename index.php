@@ -1,17 +1,20 @@
 <?php
 require_once 'db.php';
 function fetchData() {
-    global $pdo;
+    global $mysqli;
     $query = "SELECT * FROM train_data";
-    try {
-        $stmt = $pdo->prepare($query);
-        $stmt->execute();
-        $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    } catch (PDOException $e) {
-        die("Error: Failed to fetch data. " . $e->getMessage());
+    $data = [];
+    if ($result = $mysqli->query($query)) {
+        while ($row = $result->fetch_assoc()) {
+            $data[] = $row;
+        }
+        $result->free();
+    } else {
+        die("Error: Failed to fetch data. " . $mysqli->error);
     }
     return $data;
 }
+
 function searchData($data, $searchTerms, $searchField) {
     if (empty($searchTerms) || empty($searchField) || $searchField == 'all') {
         return $data;
